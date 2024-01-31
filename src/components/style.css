@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Abel&family=Dancing+Script:wght@500&family=Moon+Dance&display=swap');
+
+*{
+    font-family: 'Dancing Script', cursive;    
+    font-size: 32px;
+    margin: 0;
+    padding: 0;    
+}
+
+.main{
+    height: 100vh;    
+    
+    background-image: url("img.png");
+    background-repeat: no-repeat;
+
+}
+
+.class_h1{
+    font-size: 60px;
+    font-weight: 800;  
+    padding: 1em 0em;
+}
+
+.done,.not_done{
+    text-align: bottom;
+    padding-top: 2em;
+    color: white;
+}
+
+.class_h1{
+    text-align: center;
+}
+
+.box{
+    display: grid;
+    gap: 1em;
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns:repeat(5, 1fr)
+}
+
+.container {    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    outline: 2px solid white;
+    border-radius: 0.5em;
+
+    padding: 1em;    
+    box-shadow: 5px 5px 15px white;
+}
+
+.inp {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.wing_photo{
+    width: 2em;
+    height: 2em;
+}
+
+.wing{
+    display:flex;
+    align-items: center;
+}
